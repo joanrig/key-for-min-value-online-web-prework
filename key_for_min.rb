@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     prices each.do |price|
       if price < min_price
         min_price = price
-      price.
+      prices.index(#{price})
        
     end
     
