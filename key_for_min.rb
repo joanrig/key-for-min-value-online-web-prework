@@ -5,5 +5,7 @@ def key_for_min_value(name_hash)
   values = name_hash.collect {|key, value| value}
   keys = name_hash.collect {|key, value| key}
   
+  low_value = values[0]
+  low_key = keys[0]
   
 end
