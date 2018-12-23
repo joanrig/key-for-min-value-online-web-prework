@@ -13,12 +13,8 @@ def key_for_min_value(name_hash)
     end
   end
   
-  min_price
-  
-    
+  name_hash[price_list.find_index(min_price)]
 end
     
     
   
-  end
-end
