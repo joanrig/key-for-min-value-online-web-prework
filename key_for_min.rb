@@ -8,4 +8,5 @@ def key_for_min_value(name_hash)
   low_value = values[0]
   low_key = keys[0]
   
+  name_hash.do each |key, value|
 end
